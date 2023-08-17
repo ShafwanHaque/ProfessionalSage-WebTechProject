@@ -1,0 +1,86 @@
+/* Reset default styling */
+body, form, fieldset, legend, select, option, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Apply general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styling for the search box */
+.div_one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.deriction {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+input[type="submit"] {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for search results */
+.follow-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.follow-list a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+.follow-list span {
+    color: #555;
+    margin-right: 10px;
+}
+
+/* Apply additional styling as needed */

@@ -1,0 +1,78 @@
+.typeForm {
+    display: none;
+}
+
+/* Reset default styling */
+body, table, tr, td, a, input, button, select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Apply general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payement-div {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Apply specific styles for the payment page */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.typeForm {
+    display: none;
+}
+
+/* Add styling for submit button */
+.submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+/* Apply additional styling as needed */
